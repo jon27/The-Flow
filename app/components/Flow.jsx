@@ -33,15 +33,35 @@ handleImageLoaded : function(){
           A Florida inspired lifestyle and brand focusing on the principle of going with the flow. We all face different trials and tribulations that prevents
           us from reaching the ultimate level of success, whether it be mental, physical, social or financial. It is up to us to not let those things interfere
           with our daily lives. Learn to go with the flow, bu liing life without regret and full of passion. Conquer all challenges that life throws your way, never give
-          up, and be a better you. whether you are from the southern most point of Florida, Gulf Coast, Central Florida, Northern Florida or anywhere around the world We
+          up, and be a better you. Whether you are from the southern most point of Florida, Gulf Coast, Central Florida, Northern Florida or anywhere around the world We
           are united as one. Join the movement and just GO WITH THE FLOW.
         </p>
       </div>
+    <div className="news-letter-container">
       <div className="go-with-the-flow">
         <h1>The Flow appreciates you…</h1>
         <p>
-          The Flow would like to thank everyone for their patience and support on our new venture. Also to all of those students on that back to school flow, we want to wish you a great upcoming year! Stay tuned because we are launching our product soon and we would like for you to be a part of The Flow movement. If you have any questions about our brand please feel free to comment below.
+          The Flow would like to thank everyone for their patience and support on our new venture. Also to all of those students on that back to school flow, we want to 
+          wish you a great upcoming year! Stay tuned because we are launching our product soon and we would like for you to be a part of The Flow movement. If you have any 
+          questions about our brand please feel free to comment below.
         </p>
+      </div>
+
+      <div className="news-letter">
+        <h4>News Letter</h4>
+        <ul>
+          <li>August 2016</li>
+          <li>September 2016</li>
+          <li>October 2016</li>
+          <li>November 2016</li>
+        </ul>
+      </div>
+    </div>
+      <div className="store">
+        <div>FLOW CODE LOGO OR SIMILAR</div>
+        <div>SHIRTS WITH COLOR OPTIONS</div>
+        <div>Hoodies WITH COLOR OPTIONS</div>
+        <div>Hats WITH COLOR OPTIONS</div>
       </div>
     </div>
     );
