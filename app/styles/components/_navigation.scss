@@ -1,0 +1,38 @@
+.top-bar, .top-bar ul{
+  background-color: $nav-background;
+}
+.top-bar {
+  .menu-text {
+  color: white;
+  }
+  .name{
+    color: white;
+  }
+  ul {
+    display: inline;
+  }
+  .active-link {
+    font-weight: bold;
+
+  }
+  li a:hover{
+    background-color: white;
+    color: #000;
+  }
+}   
+.align-vertical{
+  vertical-align: middle;
+  margin: auto;
+}
+.align-bottom {
+  vertical-align: text-bottom;
+}
+.ssk {
+  color: white;
+  background: none;
+  &:hover {
+    background: none;
+    font-weight: bold;
+    color: grey;
+  }
+}

@@ -1,0 +1,62 @@
+body{
+  width: 100%;
+  background-color: #e0e0d1;
+}
+
+.share{
+  a{
+    color: green;
+  }
+  a:hover{
+    color: black;
+  }
+}
+
+.flow {
+  background-color: #cbcbb3;
+  margin: 0;
+  padding: 5vh;
+}
+
+.sun{
+  position: absolute;
+  width: 45vw;
+  margin: 0 auto;
+  height: 60vh;
+  
+}
+.flow-alone{
+  position: relative;
+  width: 65vw;
+  margin: 0 auto;
+  height: 60vh;
+}
+
+.flow-img {
+justify-content: center;
+  padding-top: 10vh;
+  text-align: center;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  margin: auto;
+
+}
+.banner {
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  align-content: center;
+  background-color: #e0e0d1;
+  width: 100%;
+}
+.go-with-the-flow{
+  background-color: #e0e0d1;
+  padding: 5vh;
+}
