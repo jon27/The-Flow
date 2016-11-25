@@ -1,9 +1,9 @@
     // Init Social Share Kit
     SocialShareKit.init({
-        url: 'https://americanmuscle.herokuapp.com/',
+        url: 'https://theflowbrand.herokuapp.com/',
         twitter: {
-            title: 'American Muscle',
-            via: 'American Muscle'
+            title: 'The FLow Brand',
+            via: 'TheFlowBrand'
         },
         onBeforeOpen: function(targetElement, network, paramsObj){
             console.log(arguments);

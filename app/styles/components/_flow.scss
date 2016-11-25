@@ -3,6 +3,7 @@ body{
   background-color: $background-color;
   font-family: helvetica;
   font-size: 1.7em;
+  color: #333333;
   h1{
     text-align: center;
   }
@@ -15,10 +16,10 @@ body{
 .share{
   padding-top: 10vh;
   a{
-    color: green;
+    color: #333333;
   }
   a:hover{
-    color: black;
+    opacity: 0.5;
   }
 }
 
@@ -60,6 +61,12 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+.quote-image{
+  border-radius: 50%;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+}
 
 .container {
   align-content: center;
@@ -70,7 +77,7 @@ justify-content: center;
 .go-with-the-flow{
   background-color: $background-color;
   padding: 5vh;
-  border-right: 5px solid white;
+  border-left: 5px solid white;
 }
 
 .news-letter-container{
@@ -78,10 +85,8 @@ justify-content: center;
   flex-direction: row;
   height: 50vh;
   align-items: center;
-  .news-letter ul{
-    list-style: none;
-
-  }
+  background-color: $background-color-darker;
+  justify-content: space-around;
 }
 .news-letter {
   margin: auto;
@@ -100,25 +105,34 @@ justify-content: center;
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: $background-color-darker;
+  background-color: $background-color;
   flex: 1;
   .main-store-div{
     border: 2px solid white;
     padding: 5px;
-    height: 35vh;
+    height: 40vh;
     width: 25vw;
     display: flex;
+    justify-content: center;
     h3{
       align-items: flex-start;
     }
     align-self: felx-end;
     align-items: flex-end;
+  }
+}
 
-  }
-  .shirts{
-    // display: flex;
-    // align-self: flex-start !important;
-  }
+.shirts{
+  width: 22vw;
+  height: 32vh;
+}
+.hoodies{
+  width: 22vw;
+  height: 32vh;
+}
+.hats{
+  width: 22vw;
+  height: 32vh;
 }
 
 .store-logo{
@@ -149,13 +163,24 @@ background-size: contain;
     .blue{
       width: 15px;
       height: 15px;
-      background-color: blue;
+      background-color: #000066;
 
     }    
     .grey{
       width: 15px;
       height: 15px;
-      background-color: grey;
+      background-color: #a5a6ad;
+    }
+    .light-blue{
+      width: 15px;
+      height: 15px;
+      background-color: #0375ad;    
+    }
+    .white{
+      width: 15px;
+      height: 15px;
+      background-color: #d9d3bd;
+      border: 1px solid black;
     }
   }
 .contact-title{
@@ -171,11 +196,18 @@ background-size: contain;
 }
 .social-icons{
   margin: auto;
-  width: 30px;
-  height: 30px;
+  a {
+    width: 10vw;
+    height: 10vh;
+  }
   flex-direction: column;
   text-align: center;
+    align-content: center;
   a:hover{
     opacity: 0.7;
     }
+}
+
+.quote{
+font-weight: bold;
 }
