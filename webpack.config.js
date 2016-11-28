@@ -24,7 +24,12 @@ module.exports = {
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Nav.jsx',
       applicationStyles: 'app/styles/app.scss',
-      Flow: 'app/components/Flow.jsx'
+      Flow: 'app/components/Flow.jsx',
+      Banner: 'app/components/Banner.jsx',
+      AboutTheFlow: 'app/components/AboutTheFlow.jsx',
+      Store: 'app/components/Store.jsx',
+      Quote: 'app/components/Quote.jsx',
+      Contact: 'app/components/Contact.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
