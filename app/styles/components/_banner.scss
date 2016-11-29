@@ -15,16 +15,22 @@
 }
 
 .sun{
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   position: absolute;
   width: 45vw;
-  margin: 0 auto;
+  margin-left: 10vw;
   height: 60vh;
   
 }
 .flow-alone{
   position: relative;
   width: 65vw;
-  margin: 0 auto;
+  margin: auto;
   height: 60vh;
 }
 
@@ -46,8 +52,21 @@
   margin: auto;
   display: -ms-flexbox;
   display: flex;
+
+  width: 100%;
+  height: 100%;
+
   -ms-flex-pack: center;
       justify-content: center;
+  
   -ms-flex-align: center;
       align-items: center;
+}
+
+.both-images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
 }
