@@ -3,7 +3,7 @@ var React = require('react');
 var Banner = React.createClass({
   render: function() {
     return (
-          <div className="container">
+    <div className="container">
       <div className="flow-img">
         <div className="banner">
           <img className="sun" src="https://lh3.googleusercontent.com/0waJLbZE1GpoKUxPJyJB3U1AhxbHVGjg84Ket-l79MqYynvlB7yOokWKu-loDZlVhwppuWtOzG0gZweSLzo1O7cURAEdV2SvRgoHnYVjKM2R0Pju_8I4zUAaZDqoy0lH0DbbYf9PzQG8HN1pLJQe6KYJ7Q11pkAMnSZkuZB8wnCo2Mv-0MHPMx-6LBaYw3W_uxmhRwbqi6pCh7zFr8jbxOcbyLiSf_Gec5rC1McIUU18DADKbK8HD1I4p6N8BV0Blk7Fbt4dhXYKWppL0WLIU8tWKWaHEMNFBJHkSQPU5mvxyVGlnvdgZKydH-z_L9al9v0HQUzRlxPtTJpAIBp9MfohVchhu9k9x2W6dfBXDZ9-L6_4372B_hsSviReLX2zRE9hZ5pIdMPI6JtDPgSvbpgnCEz69rL0EOzAeeSV0yA3CfMG2S3l_tyqaPWheimdaMLTWPsHYeaKc5OG0-U6Rx6rmE0EhYni5h0nrQb2Y7zTnd1UinWn4Y6hnWAW57nS18qzlD_chN1YsuV-DaQy4kzzF-xJjwwx22jYc61Z_BH7HI5yKKWrdi6abgVpaPPRs2ehyJjq_jj238pBImL-adaEm9cSWUgYSYPeIBEIVZ0edBaZ=s832-no" />

@@ -1,0 +1,26 @@
+.contact-title{
+  padding-top: 2vh;
+}
+.contact {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 25vh;
+    text-align: center;
+}
+.social-icons{
+  margin: auto;
+  a {
+    width: 10vw;
+    height: 10vh;
+  }
+  flex-direction: column;
+  text-align: center;
+    align-content: center;
+  a:hover{
+    opacity: 0.7;
+    }
+}
+
+
