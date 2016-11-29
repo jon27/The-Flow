@@ -3,9 +3,9 @@
   .quote-image{
     border-radius: 50%;
     background-color: black;
-    width: 200px;
-    height: 200px;
-    margin: auto;
+    width: 260px;
+    height: 260px;
+    margin: auto auto;
     background: url('https://lh3.googleusercontent.com/amq_VAnhc--KsfaWqQoCTvrhFMNkQJhdBK1HqVYNoaUthA9lJIEUcWWxh-yD99ZJ1jrwvVRKOVWl6AO9Mc4OBma7-4VzaU-RWOT2hZNFVGbNM1-ULdAoK2OJdMa8l0_sNKAUFwNpy1A7KLPUB10gJaLpI28z0cYQZ_JQlzC3mIdzZ0OLGd4ETdw-8Jt7xkWLzRNAQXgLhLBkWdKgn-otQTIzT9GeTRzgrWfDy3TcOOjsUicMB5_5n-09VROtDwd-0VHRInmKrXWB7lHOHlzuA7guZ6Jk_4Z7wIkNacs_cZGc6kh5dEQtTiHTlWISxn-RCU7KJigLNeaNezkiFCCqoVNS5WKn4Q95KAXcF-xL0mJt4xS4sxEW7gosUpczK0bK1LjBpyCf7CkCD84hKcqichHOA2X2BHKlcbO-qod51IwcM92eM611gegwo41iAnKwZ8IXYGoVPc-KVhDhsRryLlVQJnVad0Zepfs0QxmQhaIr8Mbk8Xzhmcj7-D_3k-cZ6XBdsBgNN8EETlSz6FTPHNUgdap65hukX6MK_BBTIddEGlfZdXpbrYwbWVmjHYEsh6rcENKhL3fkIqc20wWm0OBKTxC-bd4Mu-55cPaq2sxon7DS=w798-h744-no')center no-repeat;
     background-size: contain;
   }
@@ -16,6 +16,8 @@
   padding: 5vh;
   border-left: 5px solid white;
   width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 
 .news-letter-container{
@@ -40,4 +42,7 @@ font-weight: bold;
 .month {
   font-weight: bold;
   
+}
+.quote-name {
+text-align: right;
 }

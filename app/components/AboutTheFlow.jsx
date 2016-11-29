@@ -3,7 +3,7 @@ var React = require('react');
 var AboutTheFlow = React.createClass({
   render: function() {
     return (
-            <div className="flow">
+      <div className="flow">
         <h1>The Flow</h1>
         <p>
           A Florida inspired lifestyle and brand focusing on the principle of going with the flow. We all face different trials and tribulations that prevents
