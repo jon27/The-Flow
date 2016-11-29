@@ -29,19 +29,25 @@
 }
 
 .flow-img {
-justify-content: center;
+-ms-flex-pack: center;
+    justify-content: center;
   padding-top: 10vh;
   text-align: center;
   padding-bottom: 10vh;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   width: 65vw;
   margin: auto;
 
 }
 .banner {
   margin: auto;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
